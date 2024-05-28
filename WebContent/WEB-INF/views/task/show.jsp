@@ -5,7 +5,7 @@
     <c:param name="content">
         <c:choose>
             <c:when test="${tasks != null}">
-                <h2>id : ${task.id} のタスク詳細ページ</h2>
+                <h2>id : ${tasks.id} のタスク詳細ページ</h2>
 
                 <p>タイトル：<c:out value="${tasks.title}" /></p>
                 <p>タスク：<c:out value="${tasks.content}" /></p>
